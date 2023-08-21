@@ -51,7 +51,7 @@ def get_project_root() -> Path:
     """
     Returns: absolute path to the project root directory
     """
-    return Path.home() / "profun_outs"
+    return Path("/ssd005/projects/uniprot_aspuru/") / "profun_outs"
 
 
 def get_output_root() -> Path:
